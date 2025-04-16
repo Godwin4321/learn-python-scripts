@@ -7,7 +7,6 @@ config_data = """
  server_ip = 192.168.1.1
 """
 
-
 # Removing extra newlines or spaces at the beginning and end of config_data (with .strip()).
 lines = config_data.strip().split("\n")
 print(lines)  # here lines is a list.
