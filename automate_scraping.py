@@ -41,3 +41,12 @@ with open(custom_path, 'w', newline='') as file:
 
 # File saved to :
 print(f"Data saved to {custom_path}")
+
+
+# os.makedirs(os.path.dirname(custom_path), exist_ok=True)
+# Creates the folder(s) needed for the file.
+# It makes sure that /home/avager/Desktop/ exists.
+
+# with open(custom_path, 'w', newline='') as file:
+# This line creates the actual file (articles.csv) if it doesn’t exist.
+# Or overwrites it if it does.
